@@ -10,6 +10,7 @@ A lightweight real-time video analytics project that detects fire and smoke in v
 Table of Contents
 - [Installation](#installation)
 - [Usage](#usage)
+- [Notebooks](#notebooks)
 - [Features](#features)
 - [Technologies](#technologies)
 - [Project Structure](#project-structure)
@@ -72,6 +73,11 @@ cap = cv2.VideoCapture(0)
 ```
 
 To customize the Telegram alert behavior, modify the alert flags and the send_alert(...) function in fire-detection.py.
+
+## Notebooks
+
+- notebook/Fire_detection_custom_dataset_YOLOV11.ipynb
+  - Description: Jupyter notebook showing how to build/train a custom dataset for fire and smoke detection with YOLOv11, including data organization, labeling, training, and exporting weights for use in the main pipeline.
 
 ## Features
 
