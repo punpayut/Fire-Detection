@@ -56,6 +56,9 @@ Notes:
   - cap = cv2.VideoCapture(0)  # Use default webcam
   - Or provide a path to another video file.
 
+Telegram alert sample
+![Telegram alert sample](sample-alert.jpg)
+
 ## Usage
 
 The script processes a video stream, runs YOLO-based detection on each frame, and draws bounding boxes with class labels and confidence. Alerts are sent to Telegram when a fire or smoke is detected for the first time.
