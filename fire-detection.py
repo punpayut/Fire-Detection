@@ -63,7 +63,7 @@ while True:
                 color = colors[Class]
                 cv2.rectangle(frame, (x1, y1), (x2, y2), color, 2)
                 cvzone.putTextRect(frame, f'{classnames[Class]} {confidence}%', [x1 + 8, y1 + 100],
-                                   scale=1.5, thickness=1, colorB=color)
+                                   scale=2, thickness=2, colorB=(255,255,255), colorT=(0,0,0))
 
                 detected_class = classnames[Class]
 
